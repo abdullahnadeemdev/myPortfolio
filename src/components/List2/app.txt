@@ -1,0 +1,21 @@
+import { useState } from "react";
+import ListItems from "./List2/listss.jsx";
+import Form from "./List2/form";
+
+const App = () => {
+  const [todos, setTodos] = useState([
+    { id: 0, title: "Buy milk", done: false },
+    { id: 1, title: "Eat tacos", done: false },
+    { id: 2, title: "Brew tea", done: false },
+  ]);
+  return (
+    <>
+      <div>
+        <Form setTodos={setTodos} />
+        <ListItems todos={todos} setTodos={setTodos} />
+      </div>
+    </>
+  );
+};
+
+export default App;
