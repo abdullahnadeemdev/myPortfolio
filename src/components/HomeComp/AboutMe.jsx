@@ -45,8 +45,7 @@ const AboutMe = () => {
         </span>
         <p className="font-extralight text-gray-300">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br /> Rem facilis ab ex? Blanditiis voluptatum velit ducimus
-          perferendis!
+          <br /> Rem facilis ab ex? ABdu voluptatum velit ducimus perferendis!
         </p>
         <div className="flex gap-4">
           <span>
