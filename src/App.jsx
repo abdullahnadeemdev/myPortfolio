@@ -9,7 +9,6 @@ function App() {
       {/* <Layout /> */}
       <NavBar />
       {/* <SideBar /> */}
-
       <Router />
     </>
   );
