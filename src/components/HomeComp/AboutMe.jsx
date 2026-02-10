@@ -3,7 +3,7 @@ import Tags from "./tags";
 
 const AboutMe = () => {
   return (
-    <div className="bg-main p-8 flex relative justify-center items-center h-screen -z-10">
+    <div className="bg-main p-8 flex max-h-screen relative justify-center items-center h-screen -z-10">
       {/* <div className=" flex-1"> */}
       <div className=" flex-1 flex justify-center items-start  ">
         <img

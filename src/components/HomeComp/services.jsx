@@ -5,7 +5,7 @@ import { webDesignImg } from "../../assets/images";
 
 const Services = () => {
   return (
-    <div className="m-10 h-screen flex flex-col justify-center  font-serif">
+    <div className="m-10 max-h-screen flex flex-col justify-center  font-serif">
       <div>
         <span className="flex gap-1 items-center text-normal pl-15">
           <p className="text-2xl font-bold text-persian">-</p>

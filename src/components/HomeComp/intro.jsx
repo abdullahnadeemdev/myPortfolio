@@ -2,7 +2,7 @@ import { myEmoji } from "../../assets/images";
 
 const Intro = () => {
   return (
-    <div className="h-screen w-full font-serif">
+    <div className="max-h-screen w-full font-serif">
       <div className="all-left h-fit m-10 flex flex-row ">
         <div className=" flex-1 flex flex-col gap-5 pl-15">
           <div className="flex flex-col gap-10 ">

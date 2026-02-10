@@ -6,7 +6,7 @@ import PortfolioCard from "./portfolioCard";
 
 const MyPort = () => {
   return (
-    <div className="p-10 h-fit flex flex-col items-stretch justify-around  bg-gray-200">
+    <div className="p-10 h-fit flex flex-col items-stretch justify-around max-h-screen bg-gray-200">
       <div className="flex flex-col items-start ">
         <span className="flex gap-1 items-center">
           <p className="text-2xl font-bold text-persian">-</p>

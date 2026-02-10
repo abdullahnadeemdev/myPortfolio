@@ -7,7 +7,7 @@ import { react } from "../../assets/images";
 
 const Tools = () => {
   return (
-    <div className="h-screen m-10 flex flex-col justify-center items-evenly">
+    <div className="max-h-screen m-10 flex flex-col justify-center items-evenly">
       <div className="flex flex-col items-center gap-2">
         <span className="flex gap-1 items-center">
           <p className="text-2xl mb-1 text-persian">-</p>

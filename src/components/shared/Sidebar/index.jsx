@@ -29,7 +29,7 @@ const SideBar = () => {
   return (
     <>
       <div className="flex gap-2">
-        <div className="bg-main w-fit h-screen  mt-0 border-t-2  border-periwinkle">
+        <div className="bg-main w-fit  mt-0 border-t-2  border-periwinkle">
           <ul>
             {sideMenuList.map((menu, index) => (
               <NavLink
