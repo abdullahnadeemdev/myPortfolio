@@ -1,48 +1,40 @@
-import { myEmoji } from "../../../assets/images";
 import ToggleButton from "../../shared/ToggleButton";
+import Button from "../../shared/Button";
+import MyImage from "./MyImage";
 
 const Intro = () => {
   return (
-    <div className="max-h-screen w-full font-serif">
-      <div className="h-fit m-10  flex flex-row ">
-        <div className=" flex-1 flex flex-col gap-5 pl-15 ">
-          <div className="flex flex-col gap-10">
-            <p className="px-4 border-2 border-dashed text-xs sm:text-sm lg:text-lg  py-2 bg-periwinkle w-fit">
+    <div className="max-h-screen w-full font-serif ">
+      <div className="h-full w-fit my-10 flex mx-auto bg-red-300">
+        <div className="flex flex-col bg-blue-300 gap-5">
+          <div className="flex flex-col gap-5">
+            <p className="px-4 border-2 border-dashed text-xs sm:text-sm lg:text-base py-2 bg-periwinkle w-fit">
               Hello There!
             </p>
 
-            <div className="flex flex-col lg:gap-2 ">
-              <span className="text-lg md:text-2xl lg:text-4xl font-semibold flex flex-row gap-2 mt-4">
+            <div className="mt-2 lg:mt-4 flex flex-wrap">
+              <span className="text-lg flex md:text-2xl font-semibold gap-2 w-full max-w-[279px] ">
                 <p className="">I'm </p>
                 <p className="text-persian underline">Abdullah Nadeem,</p>
               </span>
-              <p className="text-lg md:text-2xl lg:text-4xl font-semibold">
-                Web Designer
-              </p>
-              <p className="text-lg md:text-2xl lg:text-4xl font-semibold">
-                Based in Pakistan
+              <p className="text-lg md:text-2xl font-semibold w-full ">
+                Web Designer Based in Pakistan
               </p>
             </div>
           </div>
-          <p className="my-5 text-textLightGrey font-extralight text-xs lg:text-sm  text-wrap lg:mr-10">
+          <p className="lg:my-5 text-textLightGrey font-extralight text-xs lg:text-sm  text-wrap lg:mr-10">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Consequuntur perspiciatis quidem repudiandae vero autem?
           </p>
 
-          <ToggleButton txt={"View my Portfolio"}>
-            <button className="border px-3 py-3 rounded-xl text-pink hover:cursor-pointer hover:bg-pink hover:text-main hover:duration-250">
-              Hire Me
-            </button>
-          </ToggleButton>
+          <div className="flex flex-col lg:flex-row gap-1 lg:gap-3  w-full">
+            <ToggleButton txt={"View my Portfolio"} />
+            <Button className="max-w-[244px]">Hire Me</Button>
+          </div>
         </div>
 
-        <div className="h-right flex-1 flex justify-center items-start relative ">
-          <img
-            src={myEmoji}
-            alt=""
-            className=" mt-10 absolute z-1 top-2 right-22"
-          />
-          <div className="style1 bg-persian h-100 w-100 absolute -z-1 top-9 right-15 rounded-full"></div>
+        <div className="my-auto bg-green-300">
+          <MyImage />
         </div>
       </div>
 
