@@ -1,14 +1,10 @@
-// import { Layout } from "./componentsMain/layout";
-import Router from "./routes";
-import NavBar from "./componentsMain/navBar";
-import SideBar from "./componentsMain/sideBar";
+import Router from "../router/routes";
+import NavBar from "./components/ComponentsMain/NavBar";
 
 function App() {
   return (
     <>
-      {/* <Layout /> */}
       <NavBar />
-      {/* <SideBar /> */}
       <Router />
     </>
   );
