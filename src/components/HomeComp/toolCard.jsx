@@ -9,7 +9,7 @@ const ToolCard = ({ logos, percent, title }) => {
         />
         <p className="font-bold text-2xl">{percent}</p>
       </div>
-      <p className="text-xl text-gray-400 font-bold">{title}</p>
+      <p className="text-xl text-textLightGrey font-bold">{title}</p>
     </div>
   );
 };

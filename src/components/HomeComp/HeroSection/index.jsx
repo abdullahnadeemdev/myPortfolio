@@ -1,41 +1,39 @@
-import { myEmoji } from "../../assets/images";
+import { myEmoji } from "../../../assets/images";
+import ToggleButton from "../../shared/ToggleButton";
 
 const Intro = () => {
   return (
     <div className="max-h-screen w-full font-serif">
-      <div className="all-left h-fit m-10 flex flex-row ">
-        <div className=" flex-1 flex flex-col gap-5 pl-15">
-          <div className="flex flex-col gap-10 ">
-            <p className="px-4 border-2 border-dashed py-2 bg-periwinkle w-fit">
+      <div className="h-fit m-10  flex flex-row ">
+        <div className=" flex-1 flex flex-col gap-5 pl-15 ">
+          <div className="flex flex-col gap-10">
+            <p className="px-4 border-2 border-dashed text-xs sm:text-sm lg:text-lg  py-2 bg-periwinkle w-fit">
               Hello There!
             </p>
 
-            <div className="flex flex-col gap-2">
-              <span className="text-4xl font-bold flex flex-row gap-2 mt-4">
+            <div className="flex flex-col lg:gap-2 ">
+              <span className="text-lg md:text-2xl lg:text-4xl font-semibold flex flex-row gap-2 mt-4">
                 <p className="">I'm </p>
                 <p className="text-persian underline">Abdullah Nadeem,</p>
               </span>
-              <p className="text-4xl font-bold">Web Designer</p>
-              <p className="text-4xl font-bold">Based in Pakistan</p>
+              <p className="text-lg md:text-2xl lg:text-4xl font-semibold">
+                Web Designer
+              </p>
+              <p className="text-lg md:text-2xl lg:text-4xl font-semibold">
+                Based in Pakistan
+              </p>
             </div>
           </div>
-          <p className="my-5 text-gray-400 font-extralight text-sm">
+          <p className="my-5 text-textLightGrey font-extralight text-xs lg:text-sm  text-wrap lg:mr-10">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            <br />
             Consequuntur perspiciatis quidem repudiandae vero autem?
           </p>
 
-          <div className="h-hireMe flex gap-4 mt-6">
-            <span className="bg-periwinkle flex gap-2 rounded-xl w-fit justify-start text-pink items-center pr-4">
-              <div className="bg-main px-4 py-3 rounded-xl hover:cursor-pointer hover:bg-pink hover:text-main hover:duration-250">
-                View my Portfolio
-              </div>
-              <div>Click</div>
-            </span>
+          <ToggleButton txt={"View my Portfolio"}>
             <button className="border px-3 py-3 rounded-xl text-pink hover:cursor-pointer hover:bg-pink hover:text-main hover:duration-250">
               Hire Me
             </button>
-          </div>
+          </ToggleButton>
         </div>
 
         <div className="h-right flex-1 flex justify-center items-start relative ">

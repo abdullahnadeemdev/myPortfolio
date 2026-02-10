@@ -12,14 +12,14 @@ function Btn({ Name }) {
       <label htmlFor="input">Enter a name: </label>
       <input
         value={name}
-        className="border-2 bg-gray-400 px-2"
+        className="border-2 bg-textLightGrey px-2"
         type="text"
         id="input"
         onChange={(e) => {
           setName(e.target.value);
         }}
       />
-      <button className="border-2 bg-gray-400">{name}</button>
+      <button className="border-2 bg-textLightGrey">{name}</button>
     </>
   );
 }

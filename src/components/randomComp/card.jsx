@@ -5,7 +5,7 @@ function Card(props) {
   //   const { name, price, image } = props;
   return (
     <>
-      <div className="flex flex-col items-center h-fit mt-2 p-2 bg-gray-400 border-2 rounded-md w-fit">
+      <div className="flex flex-col items-center h-fit mt-2 p-2 bg-textLightGrey border-2 rounded-md w-fit">
         <img
           src={
             props?.image ||
