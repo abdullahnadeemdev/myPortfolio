@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import Logo from "../../assets/images";
+import { LogoAN } from "../../../assets/images";
 
 function NavBar() {
   return (
@@ -11,7 +11,7 @@ function NavBar() {
             className="bg-[#A6B1E1] rounded-lg h-10 w-15 flex items-center "
           >
             <img
-              src={Logo}
+              src={LogoAN}
               alt="Logo"
               className=" object-contain scale-150  hover:scale-180"
             />

@@ -1,11 +1,11 @@
 import { NavLink } from "react-router";
-import Card from "../RandomComp/card";
-import CondRendder from "../randomComp/condRendder";
-import Counter from "../randomComp/counter";
-import EventHandling from "../randomComp/eventHandle";
-import Form from "../List2/form";
-import Gallery from "../randomComp/gallery";
-import UseState from "../randomComp/useState";
+import Card from "../../RandomComp/card";
+import CondRendder from "../../randomComp/condRendder";
+import Counter from "../../randomComp/counter";
+import EventHandling from "../../randomComp/eventHandle";
+import Form from "../../List2/form";
+import Gallery from "../../randomComp/gallery";
+import UseState from "../../randomComp/useState";
 
 export const sideMenuList = [
   { name: "Card", url: "card", component: <Card /> },

@@ -1,11 +1,11 @@
+import { Layout } from "./components/shared/Layout";
 import Router from "./router/routes";
-// import NavBar from "./components/ComponentsMain/NavBar";
 
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
-      <Router />
+      <Layout />
+      {/* <Router /> */}
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import { sideMenuList } from "../../components/ComponentsMain/SideBar";
+import { sideMenuList } from "../../components/shared/Sidebar";
 import Intro from "../../components/HomeComp/intro";
 import Services from "../../components/HomeComp/services";
 import AboutMe from "../../components/HomeComp/AboutMe";
