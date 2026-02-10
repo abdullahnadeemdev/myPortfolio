@@ -7,7 +7,6 @@ export { default as myEmoji } from "./myEmoji.png";
 export { default as penToolImg } from "./penToolImg.png";
 export { default as ReactImg } from "./ReactImg.png";
 export { default as laptopImg } from "./laptopImg.png";
-export { default as laptopImg } from "./laptopImg.png";
 export { default as webDesignImg } from "./webDesignImg.png";
 export { default as cartShopping } from "./cartShopping.svg";
 export { default as react } from "./react.svg";

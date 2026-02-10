@@ -1,7 +1,7 @@
 import Card from "./card";
-import Laptop from "../../assets/ui-laptop.png";
-import Pen from "../../assets/pen-tool.png";
-import Web from "../../assets/web-design.png";
+import { laptopImg } from "../../assets/images";
+import { penToolImg } from "../../assets/images";
+import { webDesignImg } from "../../assets/images";
 
 const Services = () => {
   return (
@@ -17,9 +17,9 @@ const Services = () => {
         </div>
       </div>
       <div className="m-10 flex gap-3">
-        <Card images={Laptop} head="UI/UX Design" />
-        <Card images={Pen} head="Application Design" />
-        <Card images={Web} head="Website Design" />
+        <Card images={laptopImg} head="UI/UX Design" />
+        <Card images={penToolImg} head="Application Design" />
+        <Card images={webDesignImg} head="Website Design" />
       </div>
     </div>
   );

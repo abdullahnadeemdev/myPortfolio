@@ -1,10 +1,10 @@
 import { useParams } from "react-router";
-import { sideMenuList } from "../components/componentsMain/sideBar";
-import Intro from "../HomeComp/intro";
-import Services from "../HomeComp/services";
-import AboutMe from "../HomeComp/AboutMe";
-import Tools from "../HomeComp/tools";
-import Portfolio from "../HomeComp/myPort";
+import { sideMenuList } from "../../components/ComponentsMain/SideBar";
+import Intro from "../../components/HomeComp/intro";
+import Services from "../../components/HomeComp/services";
+import AboutMe from "../../components/HomeComp/AboutMe";
+import Tools from "../../components/HomeComp/tools";
+import Portfolio from "../../components/HomeComp/myPort";
 
 const Home = () => {
   const { id: params } = useParams();

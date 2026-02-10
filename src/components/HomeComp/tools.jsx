@@ -1,9 +1,9 @@
 import ToolCard from "./toolCard";
-import Html from "../../assets/Html.jpg";
-import Tailwind from "../../assets/tailwindcss-logotype.svg";
-import CSS from "../../assets/CSS.jpg";
-import Js from "../../assets/JavaScript.jpg";
-import React from "../../assets/React.png";
+import { HtmlImg } from "../../assets/images";
+import { tailwindcssLogo } from "../../assets/images";
+import { cssImg } from "../../assets/images";
+import { JsImg } from "../../assets/images";
+import { react } from "../../assets/images";
 
 const Tools = () => {
   return (
@@ -18,11 +18,15 @@ const Tools = () => {
       </div>
 
       <div className="flex justify-evenly mt-10">
-        <ToolCard logos={Html} percent="90%" title="HTML" />
-        <ToolCard logos={CSS} percent="10%" title="CSS" />
-        <ToolCard logos={Tailwind} percent="90%" title="Tailwind" />
-        <ToolCard logos={Js} percent="30%" title="JavaScript" />
-        <ToolCard logos={React} percent="98%" title="React" />
+        <ToolCard logos={HtmlImg} percent="90%" title="HTML" />
+        <ToolCard logos={cssImg} percent="10%" title="CSS" />
+        <ToolCard
+          logos={tailwindcssLogo}
+          percent="90%"
+          title="tailwindcssLogo"
+        />
+        <ToolCard logos={JsImg} percent="30%" title="JavaScript" />
+        <ToolCard logos={react} percent="98%" title="React" />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
-import logo from "../../assets/darazLogo.png";
+import { darazLogo } from "../../assets/images";
 
 export function Profile() {
-  return <img src={logo} className="w-20 h-20" alt="Katherine Johnson" />;
+  return <img src={darazLogo} className="w-20 h-20" alt="Katherine Johnson" />;
 }
 
 export function Button() {

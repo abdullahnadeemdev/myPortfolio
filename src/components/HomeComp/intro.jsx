@@ -1,4 +1,4 @@
-import MyPic from "../../assets/myEmoji.png";
+import { myEmoji } from "../../assets/images";
 
 const Intro = () => {
   return (
@@ -40,7 +40,7 @@ const Intro = () => {
 
         <div className="h-right flex-1 flex justify-center items-start relative ">
           <img
-            src={MyPic}
+            src={myEmoji}
             alt=""
             className=" mt-10 absolute z-1 top-2 right-22"
           />

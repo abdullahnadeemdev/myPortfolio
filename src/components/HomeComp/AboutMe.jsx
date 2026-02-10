@@ -1,4 +1,4 @@
-import MyPic from "../../assets/myEmoji.png";
+import { myEmoji } from "../../assets/images";
 import Tags from "./tags";
 
 const AboutMe = () => {
@@ -7,7 +7,7 @@ const AboutMe = () => {
       {/* <div className=" flex-1"> */}
       <div className=" flex-1 flex justify-center items-start  ">
         <img
-          src={MyPic}
+          src={myEmoji}
           alt=""
           className=" mt-10 absolute z-1 top-30 left-40"
         />
