@@ -5,13 +5,13 @@ const ToggleButton = ({ children, txt }) => {
 
   return (
     <div
-      className={`bg-periwinkle rounded-xl text-pink h-[50px] flex items-center px-4 max-w-60 w-full relative `}
+      className={`bg-periwinkle rounded-xl text-pink h-[50px] flex items-center px-4 max-w-50 md:max-w-70 w-full relative `}
     >
       <button
-        className="bg-main text-xs sm:text-sm lg:text-base rounded-xl h-[50px] px-2 absolute w-[60%] hover:cursor-pointer transition-all duration-500 ease-in-out"
+        className="bg-main text-sm sm:text-base lg:text-xl rounded-xl h-[50px] px-2 absolute max-w-50 md:w-[70%] hover:cursor-pointer transition-all duration-500 ease-in-out"
         style={{
           /* Calculate position: (100% of parent) - (Button Width) */
-          left: isSelected ? "calc(100% - 60%)" : "0px",
+          left: isSelected ? "calc(100% - 70%)" : "0px",
         }}
         onClick={() => setIsSelected(!isSelected)}
       >
